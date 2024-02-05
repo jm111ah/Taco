@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Application\ExtraApplicatoin\ExtraApplicatoin.csproj" />
+    <ProjectReference Include="..\..\..\Domain\Dto\Dto.csproj" />
+    <ProjectReference Include="..\..\..\Port\in\InPort\InPort.csproj" />
+    <ProjectReference Include="..\..\..\Port\out\OutPort\OutPort.csproj" />
+    <ProjectReference Include="..\..\out\outAdapter\OutAdapter.csproj" />
+  </ItemGroup>
+
+</Project>

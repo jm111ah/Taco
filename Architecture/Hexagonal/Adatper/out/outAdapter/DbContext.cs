@@ -14,7 +14,7 @@ namespace OutAdapter
             _config = config;
         }
 
-        public IDbConnection GetConnection(string conn = "TTPHotel")
+        public IDbConnection GetConnection(string conn = "TacoDB")
         {
             return new SqlConnection(_config.GetConnectionString(conn));
         }

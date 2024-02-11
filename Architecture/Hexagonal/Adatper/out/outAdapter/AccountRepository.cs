@@ -24,7 +24,7 @@ namespace OutAdapter
             param.Add("@Id", requestDto.Id);
             param.Add("@Pw", requestDto.Pw);
 
-            return await db.QueryFirstAsync<SupplierAdminEntity>(ExtraSP.usp_Extra_GetCustomer, param, commandType: CommandType.StoredProcedure);
+            return await db.QueryFirstAsync<SupplierAdminEntity>(SP.SP_GetCustomer, param, commandType: CommandType.StoredProcedure);
         }
     }
 }

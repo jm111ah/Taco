@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "out", "out", "{D67C7E46-F49
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutAdapter", "Adatper\out\outAdapter\OutAdapter.csproj", "{61BEECA4-1835-4B22-BC26-52BF3DC2A7BF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtraNet", "Adatper\in\ExtraNet\ExtraNet.csproj", "{9A237059-F14C-45E4-B744-3612BFF4CEDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexaSutdy", "Adatper\in\ExtraNet\HexaSutdy.csproj", "{9A237059-F14C-45E4-B744-3612BFF4CEDB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encryption", "Application\Encryption\Encryption.csproj", "{AB0EAEC8-0C50-476D-B642-CC7AA531E1F7}"
 EndProject

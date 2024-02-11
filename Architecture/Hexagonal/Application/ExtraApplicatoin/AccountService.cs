@@ -35,11 +35,6 @@ namespace Applicatoin
             {
                 return false;
             }
-
-
-            
-
-            
         }
     }
 }

@@ -9,6 +9,6 @@ namespace OutPort
 {
     public interface IDbContext
     {
-        IDbConnection GetConnection(string conn = "TTPHotel");
+        IDbConnection GetConnection(string conn = "TacoDB");
     }
 }
